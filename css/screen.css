@@ -114,7 +114,7 @@ div#content {
 }
 div#footer {
     clear: both;
-    margin: 0 0 0 242px;
+    margin: 0 1.5em 0 242px;
     border-top: 1px solid #eee;
     padding: 1em 0;
 }

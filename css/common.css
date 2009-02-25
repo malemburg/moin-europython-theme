@@ -23,6 +23,11 @@ a:link {color: #00E;}
 a:visited {color: #551A8B;}
 a {color: #00E;}
 
+#content a {
+    text-decoration: none;
+    border-bottom: 1px dashed #eee;
+}
+
 a.nonexistent:visited, a.nonexistent, 
 a.badinterwiki:visited, a.badinterwiki {color: gray;}
 

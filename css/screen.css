@@ -41,6 +41,9 @@ div#logo {
     margin: 0 32px 0 0;
     text-align: center;
 }
+div#logo a {
+    outline: none;
+}
 div#sidebar {
     float: left;
     width: 162px;
@@ -106,10 +109,8 @@ div#sidebar select {
     font-size: 12px;
 }
 div#content {
-    margin: 0 0.5em 0 242px;
+    margin: 0 1.5em 0 242px;
     padding: 1.2em 0 0 0;
-    position: relative;
-    overflow: hidden;
 }
 div#footer {
     clear: both;
@@ -141,7 +142,7 @@ ul#credits li {
     bottom: 4px;
     left: 242px;
     background: url(../img/bullet.gif) no-repeat 0 50%;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 12px;
 }
 ul#pagetrail,
 #locationline ul {
@@ -177,4 +178,44 @@ ul#pagetrail li {
     padding: 0 0 0 12px;
     margin: 0;
     background: url(../img/bullet.gif) 1px 50% no-repeat;
+}
+#message {
+    position: absolute;
+    top: 0.5em;
+    left: 242px;
+    background: #ffe;
+    border: 1px solid #999;
+    padding: 0.5em;
+    z-index: 10000;
+    font-size: 12px;
+    margin: 0 0.75em 0 0;
+}
+#message table {
+    max-width: 100%;
+    border: none;
+}
+#message table td {
+    border: none;
+}
+#message p {
+    margin: 0;
+}
+
+#message input {
+    width: 100%;
+}
+#message .buttons input {
+    width: auto;
+}
+#editor {
+    padding: 4em 0 0 0;
+    margin: 0.5em;
+} 
+#editor textarea {
+    display: block;
+    font-size: 100%;
+}
+#editor-comment {
+    display: block;
+    width: 100%;
 }

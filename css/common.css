@@ -268,20 +268,20 @@ strong.highlight
 	clear: both;
         border-collapse: collapse;
         
-    border: 1px solid #4d7da9;
+    border: 1px solid #999;
 }
 
 .recentchanges td {
 	vertical-align: top;
 	border: none;
-    background: #e6eaf0;
+    background: #eee;
 }
 
 
 .recentchanges .rcdaybreak td {
-    background: #81BBF2;
+    background: #dadada;
     border: none;
-    border: 1px solid #4d7da9;
+    border: 1px solid #999;
 }
 
 .rcdaybreak td a {

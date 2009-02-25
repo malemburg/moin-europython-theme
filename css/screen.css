@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+    font-size: 90%;
+}
+body {
+    position: relative;
+    min-height: 100%;
+}
+form#searchform {
+    float: right;
+    margin: 0.5em;
+}
+form#searchform input#searchinput {
+    border: 1px solid #c4cccc;
+    font-size: 12px;
+    vertical-align: middle;
+}
+form#searchform input#fullsearch,
+form#searchform input#titlesearch {
+    border-top: 1px solid #c4cccc;
+    border-left: 1px solid #c4cccc;
+    border-bottom: 1px solid #6f7777;
+    border-right: 1px solid #6f7777;
+    background: #f8f7f7 url(../img/button-on-bg.png) no-repeat;
+    font-weight: bold;
+    color: #223344;
+    font-size: 12px;
+    vertical-align: middle;
+}
+div#header {
+    background: url(../img/header-bg2.png) repeat-x;
+    border-bottom: 1px solid #999;
+    height: 80px;
+    padding: 1px 0;
+    position: relative;
+}
+div#logo {
+    float: left;
+    width: 162px;
+    padding: 6px 0 0 48px;
+    margin: 0 32px 0 0;
+    text-align: center;
+}
+div#sidebar {
+    float: left;
+    width: 162px;
+    padding: 4px 0 0 48px; 
+    margin: 0 32px 0 0;
+    color: #4b5a6a;
+    font-size: 12px;
+}
+div#sidebar h1 {
+    font-weight: bold;
+    font-size: 100%;
+    color: #4b5a6a;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+div#sidebar ul#navibar {
+    padding: 0;
+    margin: 0;
+}
+div#sidebar ul#navibar li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    display: block;
+}
+div#sidebar ul#navibar li a {
+    display: block;
+    border: 1px solid #dadada;
+    margin: 4px 0 0 0;
+    background: #f4f4f4 url(../img/nav-off-bg.png) 100% 0 no-repeat;
+    color: #4b5a6a;
+    font-family: sans-serif;
+    padding: 2px 4px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div#sidebar ul#navibar li.current a {
+    background: #f4f4f4 url(../img/nav-on-bg.png) 100% 0 no-repeat;
+    border-left: 3px solid #ffdb4c;
+    color: #000;
+}
+div#sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+div#sidebar ul li {
+    list-style: url(../img/bullet.gif);
+    margin: 2px 0 2px 2em;
+    padding: 0;
+}
+div#sidebar ul li a {
+    color: #3c4b7b;
+    text-decoration: none;
+}
+div#sidebar ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+div#sidebar select {
+    width: 100%;
+    font-size: 12px;
+}
+div#content {
+    margin: 0 0 0 242px;
+}
+div#footer {
+    margin: 0 0 0 242px;
+    border-top: 1px solid #eee;
+    padding: 1em 0;
+}
+ul#credits {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+ul#credits a {
+    color: #666;
+    text-decoration: none;
+}
+ul#credits a:hover {
+    text-decoration: underline;
+}
+ul#credits li {
+    display: inline;
+    list-style: none;
+    margin: 1em;
+}
+#locationline {
+    position: absolute;
+    bottom: 4px;
+    left: 242px;
+    background: url(../img/bullet.gif) no-repeat 0 50%;
+    padding: 0 0 0 8px;
+}
+#locationline ul {
+    margin: 0;
+    padding: 0;
+}
+#locationline ul li {
+    margin: 0.5em;
+    padding: 0;
+    display: inline;
+    list-style: none;
+}
+#locationline ul li a {
+    color: #000;
+    text-decoration: none;
+}
+#locationline ul li a:hover {
+    text-decoration: underline;
+}
+#locationline ul li a.backlink {
+    font-weight: bold;
+}

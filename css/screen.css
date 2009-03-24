@@ -114,9 +114,9 @@ div#content {
 }
 div#footer {
     clear: both;
-    margin: 0 1.5em 0 242px;
-    border-top: 1px solid #eee;
-    padding: 1em 0;
+    margin: 1em 1.5em 0 242px;
+    border-top: 1px solid #ddd;
+    padding: 0.5em 0;
 }
 ul#credits {
     margin: 0;
@@ -183,8 +183,8 @@ ul#pagetrail li {
     position: absolute;
     top: 0.5em;
     left: 242px;
-    background: #ffe;
-    border: 1px solid #999;
+    background: #fff;
+    border: 1px solid #ddd;
     padding: 0.5em;
     z-index: 10000;
     font-size: 12px;

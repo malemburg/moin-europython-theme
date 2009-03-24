@@ -358,9 +358,13 @@ div.codearea pre span.Special    {color: #0000ff;}
 div.codearea pre span.Preprc     {color: #803999;}
 
 /* for diff parser */
-div.codearea pre span.DiffAdded   {color: #4876FF;}
-div.codearea pre span.DiffRemoved {color: #FF0000;}
-div.codearea pre span.DiffChanged {color: #FF7F50;}
+table.diff .diff-added span,
+div.codearea pre span.DiffAdded   {background: #b4ddff; font-weight: bold}
+table.diff .diff-removed span,
+div.codearea pre span.DiffRemoved {background: #ffeca1; font-weight: bold;}
+table.diff .diff-changed span,
+div.codearea pre span.DiffChanged {background: #bcde9e; font-weight: bold}
+table.diff .diff-header,
 div.codearea pre span.DiffSeparator {color: #228B22; font-weight: bold}
 
 /* Search results */

@@ -107,11 +107,11 @@ pre.comment:before {
 /* .comment css definition must be top of .red/.green/.blue or it won't work */
 .comment { color: #555555; background-color: #DDDDFF; }
 
-.red { background-color: #FFCCCC; }
-.green { background-color: #CCFFCC; }
-.blue { background-color: #CCCCFF; }
-.yellow { background-color: #FFF29F; }
-.orange { background-color: #FFD59B; }
+.red { background-color: #FFCCCC; border: 1px solid #daa; padding: 0 1em;  }
+.green { background-color: #CCFFCC; border: 1px solid #ada; padding: 0 1em;  }
+.blue { background-color: #CCCCFF; border: 1px solid #aad; padding: 0 1em;  }
+.yellow { background-color: #FFF29F; border: 1px solid #dd7; padding: 0 1em; }
+.orange { background-color: #FFD59B; border: 1px solid #dc7; padding: 0 1em;  }
 
 .solid { border: 2px solid #000000; padding: 2px; }
 .dashed { border: 2px dashed #000000; padding: 2px; }

@@ -48,8 +48,8 @@ div#logo a {
 }
 div#sidebar {
     float: left;
-    width: 14.6em;
-    padding: 4px 0 0 1.4em; 
+    width: 13.2em;
+    padding: 0 0.4em 0 1.4em; 
     margin: 0 0 0 3%;
     color: #4b5a6a;
     font-size: 75%;
@@ -112,7 +112,7 @@ div#sidebar select {
 }
 div#content {
     margin: 0 1.5em 0 3%;
-    padding: 12px 0 0 19em;
+    padding: 12px 0 0 16.5em;
     font-size: 86%;
     line-height: 1.5;
 }
@@ -146,7 +146,7 @@ ul#credits li {
     position: absolute;
     bottom: 4px;
     left: 3%;
-    margin-left: 19em;
+    margin-left: 16.5em;
     background: url(../img/bullet.gif) no-repeat 0 50%;
     padding: 0 0 0 12px;
 }
@@ -179,7 +179,7 @@ ul#pagetrail {
     position: absolute;
     bottom: -1.5em;
     left: 3%;
-    margin-left: 19em;
+    margin-left: 16.5em;
     font-size: 86%;
 }
 ul#pagetrail li {

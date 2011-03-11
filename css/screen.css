@@ -38,9 +38,9 @@ div#header {
 }
 div#logo {
     float: left;
-    width: 162px;
-    padding: 6px 0 0 48px;
-    margin: 0 32px 0 0;
+    margin: 10px 0 0 3%;
+    height: 71px;
+    width: 211px;
     text-align: center;
 }
 div#logo a {

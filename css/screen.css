@@ -1,6 +1,7 @@
 html {
     height: 100%;
-    font-size: 90%;
+    font-size: 103%;
+    font-family: Arial,Verdana,Geneva,"Bitstream Vera Sans",Helvetica,sans-serif;
 }
 body {
     position: relative;
@@ -8,11 +9,11 @@ body {
 }
 form#searchform {
     float: right;
-    margin: 0.5em;
+    margin: 16px 4% 0 0;
 }
 form#searchform input#searchinput {
     border: 1px solid #c4cccc;
-    font-size: 12px;
+    font-size: 88%;
     vertical-align: middle;
 }
 form#searchform input#fullsearch,
@@ -24,7 +25,8 @@ form#searchform input#titlesearch {
     background: #f8f7f7 url(../img/button-on-bg.png) no-repeat;
     font-weight: bold;
     color: #223344;
-    font-size: 12px;
+    font-size: 90%;
+    text-transform: lowercase;
     vertical-align: middle;
 }
 div#header {
@@ -46,15 +48,15 @@ div#logo a {
 }
 div#sidebar {
     float: left;
-    width: 162px;
-    padding: 4px 0 0 48px; 
-    margin: 0 32px 0 0;
+    width: 14.6em;
+    padding: 4px 0 0 1.4em; 
+    margin: 0 0 0 3%;
     color: #4b5a6a;
-    font-size: 12px;
+    font-size: 75%;
 }
 div#sidebar h1 {
     font-weight: bold;
-    font-size: 100%;
+    font-size: 103%;
     color: #4b5a6a;
     font-family: sans-serif;
     margin: 0.5em;
@@ -76,7 +78,7 @@ div#sidebar ul#navibar li a {
     margin: 4px 0 0 0;
     background: #f4f4f4 url(../img/nav-off-bg.png) 100% 0 no-repeat;
     color: #4b5a6a;
-    font-family: sans-serif;
+    font-family: Verdana,Geneva,"Bitstream Vera Sans",Helvetica,sans-serif;
     padding: 2px 4px;
     letter-spacing: 1px;
     overflow: hidden;
@@ -109,8 +111,10 @@ div#sidebar select {
     font-size: 12px;
 }
 div#content {
-    margin: 0 1.5em 0 242px;
-    padding: 1.2em 0 0 0;
+    margin: 0 1.5em 0 3%;
+    padding: 12px 0 0 19em;
+    font-size: 86%;
+    line-height: 1.5;
 }
 div#footer {
     clear: both;
@@ -138,9 +142,11 @@ ul#credits li {
     margin: 1em;
 }
 #locationline {
+    font-size: 86%;
     position: absolute;
     bottom: 4px;
-    left: 242px;
+    left: 3%;
+    margin-left: 19em;
     background: url(../img/bullet.gif) no-repeat 0 50%;
     padding: 0 0 0 12px;
 }
@@ -155,10 +161,11 @@ ul#pagetrail li,
     padding: 0;
     display: inline;
     list-style: none;
+    font-size: 110%;
 }
 ul#pagetrail li a,
 #locationline ul li a {
-    color: #000;
+    color: #3A4969;
     text-decoration: none;
 }
 ul#pagetrail li a:hover,
@@ -168,13 +175,15 @@ ul#pagetrail li a:hover,
 #locationline ul li a.backlink {
     font-weight: bold;
 }
-#pagetrail {
+ul#pagetrail {
     position: absolute;
     bottom: -1.5em;
-    left: 242px;
-    font-size: 12px;
+    left: 3%;
+    margin-left: 19em;
+    font-size: 86%;
 }
 ul#pagetrail li {
+    font-size: 90%;
     padding: 0 0 0 12px;
     margin: 0;
     background: url(../img/bullet.gif) 1px 50% no-repeat;

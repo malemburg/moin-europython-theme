@@ -6,6 +6,7 @@ html {
 body {
     position: relative;
     min-height: 100%;
+    line-height: 1.4;
 }
 form#searchform {
     float: right;
@@ -71,6 +72,7 @@ div#sidebar ul#navibar li {
     border: none;
     list-style: none;
     display: block;
+    font-variant: small-caps;
 }
 div#sidebar ul#navibar li a {
     display: block;
@@ -80,7 +82,6 @@ div#sidebar ul#navibar li a {
     color: #4b5a6a;
     font-family: Verdana,Geneva,"Bitstream Vera Sans",Helvetica,sans-serif;
     padding: 2px 4px;
-    letter-spacing: 1px;
     overflow: hidden;
     white-space: nowrap;
 }

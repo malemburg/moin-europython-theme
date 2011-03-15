@@ -88,6 +88,7 @@ class Theme(rightsidebar.Theme):
         return page.link_to(self.request, text=text,
                             querystr={'action': action},
                             css_class='nbsubscribe %s' % action,
+                            title=text,
                             rel='nofollow')
 
     def wikipanel(self, d):

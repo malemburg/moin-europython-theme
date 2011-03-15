@@ -245,3 +245,19 @@ div#textcha {
     margin: 2em 2em 0.25em 0;
 }
 
+#star a {
+    display: block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    text-indent: 16px;
+    background: url('../img/star_off.png') no-repeat 50% 50%;
+    position: absolute;
+    top: 64px;
+    left: 3%;
+    margin-left: 17.5em;
+    margin-top: -0.2em;
+}
+#star a.unsubscribe {
+    background-image: url('../img/star_on.png');
+}

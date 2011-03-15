@@ -68,5 +68,36 @@ class Theme(rightsidebar.Theme):
     }
     del _
 
+    def subscribeLink(self, page):
+        """ Return subscribe/unsubscribe link to valid users
+
+        @rtype: unicode
+        @return: subscribe or unsubscribe link
+        """
+        if not ((self.cfg.mail_enabled or
+                 self.cfg.jabber_enabled) and self.request.user.valid):
+            return ''
+
+        _ = self.request.getText
+        if self.request.user.isSubscribedTo([page.page_name]):
+            action, text = 'unsubscribe', _("Unsubscribe")
+        else:
+            action, text = 'subscribe', _("Subscribe")
+        if action in self.request.cfg.actions_excluded:
+            return ''
+        return page.link_to(self.request, text=text,
+                            querystr={'action': action},
+                            css_class='nbsubscribe %s' % action,
+                            rel='nofollow')
+
+    def wikipanel(self, d):
+        """ Create wiki panel """
+        _ = self.request.getText
+        html = [
+            u'<div id="star">', self.subscribeLink(d['page']), '</div>',
+            u'<div class="sidepanel">', self.navibar(d), u'</div>',
+            ]
+        return u'\n'.join(html)
+
 def execute(request):
     return Theme(request)

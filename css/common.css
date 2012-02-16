@@ -577,6 +577,12 @@ h2 {
     color: #366d9c;
     font-size: 125%;
 }
+h3 {
+    color: #366d9c;
+}
+h4 {
+    color: #234764;
+}
 
 ul li {
     list-style: url(../img/bullet.gif);

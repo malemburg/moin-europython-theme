@@ -261,3 +261,8 @@ div#textcha {
 #star a.unsubscribe {
     background-image: url('../img/star_on.png');
 }
+
+ul#timings {
+    font-size: 50%;
+    color: #999;
+}

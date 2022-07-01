@@ -7,4 +7,12 @@ website.
 It was written by Radomir Dopieralski in 2009 based on the default moin
 theme, in order to adapt the looks to Python.org website of the time.
 
+This is a fork of the original version which could be found at
+https://repo32.mydevil.net/hg/pub/sheep/moin-europython/
+
+TODO
+----
+
+ - make CSS responsive
+
 License: GPLv2 (see LICENSE file)

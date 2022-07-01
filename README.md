@@ -15,7 +15,7 @@ and 2010: https://www.europython-society.org/europython/#europython-2009
 TODO
 ----
 
- [ ] make CSS responsive
+ - [ ] make CSS responsive
 
 
 License

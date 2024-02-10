@@ -266,3 +266,14 @@ ul#timings {
     font-size: 50%;
     color: #999;
 }
+
+@media only screen and (max-width: 600px) {
+  div#content {
+    padding: 12px 12px 12px 12px;
+  }
+  div#sidebar {
+    float: none;
+    width: 80%;
+    clear: both;
+  }
+}

@@ -268,12 +268,45 @@ ul#timings {
 }
 
 @media only screen and (max-width: 600px) {
-  div#content {
-    padding: 12px 12px 12px 12px;
-  }
-  div#sidebar {
-    float: none;
-    width: 80%;
-    clear: both;
-  }
+    div#content {
+        padding: 0 12px 12px;
+    }
+    div#sidebar {
+        float: none;
+        width: 80%;
+        clear: both;
+        margin-top: 25px;
+    }
+    div#sidebar h1 {
+        margin: 5px 0 0;
+    }
+    div#locationline, ul#pagetrail {
+        margin-left: 0;
+    }
+    div#logo {
+        position: absolute;
+        left: -18px;
+        top: -10px
+    }
+    div#sidebar li {
+        display: inline-block;
+        margin-left: 0;
+    }
+    div#sidebar ul#navibar li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    div#sidebar ul#navibar li a {
+      padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    form#searchform {
+        position: relative;
+        z-index: 1;
+    }
+    #logo img {
+        clip-path: inset(0% 70% 10px 10px);
+    }
 }
